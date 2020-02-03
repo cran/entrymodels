@@ -21,7 +21,7 @@ em_basic(data, Sm, y, N_max = 5, alpha0 = rep(0.1, N_max),
 \item{gamma0}{A \code{vector} of type \code{numeric} and length \code{N_max} indicating the initial condition for gamma. Defaults to a vector of 1's.}
 }
 \value{
-A tibble of critical market sizes, as explained in Bresnahan and Reiss (1991)
+A tibble with critical market sizes and estimated parameters, as explained in Bresnahan and Reiss (1991)
 }
 \description{
 Estimate basic entry model with only one variable for the market size.
@@ -37,6 +37,7 @@ em_n3 <- em_basic(tb, "Sm", "y", N_max = 3)
 
 # estimate model with different initial conditions
 em_difc <- em_basic(tb, "Sm", "y", alpha0 = rep(0.2, 5), gamma0 = rep(1.1, 5))
+
 
 \dontrun{
 tb <- load_example_data()
