@@ -1,11 +1,18 @@
 Package: entrymodels
 Type: Package
 Title: Estimate Entry Models
-Version: 0.2.0
+Version: 0.2.1
 Authors@R: 
-    c(person("Guilherme", "Jardim", email = "gnjardim1@gmail.com", role = c("aut", "cre")), 
-	  person("Arthur", "Bragança", role = "ctb"), 
-	  person("Pedro", "Fernandes", role = "ctb"))
+    c(person(given = "Guilherme",
+             family = "Jardim",
+             role = c("aut", "cre"),
+             email = "gnjardim1@gmail.com"),
+      person(given = "Arthur",
+             family = "Bragança",
+             role = "ctb"),
+      person(given = "Pedro",
+             family = "Fernandes",
+             role = "ctb"))
 Maintainer: Guilherme Jardim <gnjardim1@gmail.com>
 Description: Tools for measuring empirically the effects of entry in concentrated markets, based in Bresnahan and Reiss (1991) <https://www.jstor.org/stable/2937655>. 
 License: MIT + file LICENSE
@@ -14,9 +21,9 @@ LazyData: true
 Imports: stats, magrittr, dplyr, readr
 RoxygenNote: 6.1.1
 NeedsCompilation: no
-Packaged: 2020-02-03 21:30:28 UTC; gjardim
+Packaged: 2020-05-06 12:53:59 UTC; gjardim
 Author: Guilherme Jardim [aut, cre],
   Arthur Bragança [ctb],
   Pedro Fernandes [ctb]
 Repository: CRAN
-Date/Publication: 2020-02-03 21:40:06 UTC
+Date/Publication: 2020-05-06 13:20:03 UTC
